@@ -12,6 +12,10 @@ This project is the creation of an autonomous drone capable of landing, taking o
 Below is a block diagram of the project on how each component is connected to each other. Note that the there are 4 motors, 4 electronic speed controls, and 2 batteries.
 ![Untitled - Frame 1 (3)](https://user-images.githubusercontent.com/111323535/184789134-a539e0c1-d1bf-44fb-b3a9-93628ab459d4.jpg)
 
+Below is a fritzing diagram of the drone build. 
+Note: Fritizing did not have the necessary components for the batteries or motors this project uses. The motors are connected to port 9 through 12 and are connected to the batteries 5v and ground instead of the boards. This is done via the electronic speed control and the Arduino board is passed power from one of the two batteries via a power and ground cable. For this main reason, the schematic diagram was ignored as the box diagram has a better visual representation.
+![fig2](https://user-images.githubusercontent.com/111323535/184801462-8d122851-9c52-484e-9d30-2201017c397e.png)
+
 # Repository Contents
 This is the directories and contents of the repository:
 1. Drone: This folder contains the 3d files used to print the final prototype drone. They are sourced from the thingiverse website from the author Brendan22 https://www.thingiverse.com/thing:304237. 
