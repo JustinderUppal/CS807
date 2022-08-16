@@ -40,7 +40,7 @@ The materials used for this project are:
 1. Upload the code to the arduino uno via the arduino ide. The ide is available for download on the Arduino website. 
 2. Plug in the batteries to the 4 propeller motors, this will automatically power on the Arduino uno board. 
 3. Once powered on, the arduino will cycle through the initial phase of setup. Setup is complete once the beeping of the motor initialization has finished. 
-4. Download and install an arduino bluetooth application on the phone. Use the configured text strings on the gamepad which are located in the script.ino file. These text strings trigger specific actions within the arduino logic. For example, passing a u across bluetooth will trigger the speed to increase whereas passing a d will decrease the speed. The key legend is listed in the script file. 
+4. Download and install an arduino bluetooth application on the phone. Use the configured text strings on the gamepad which are located in the script.ino file. These text strings trigger specific actions within the arduino logic. For example, passing a u across bluetooth will trigger the speed to increase whereas passing a d will decrease the speed. The key legend is listed in the script file. The application that I used for the project was Bluetooth for Arduino created by Giuseppe Migliore and can be found at this link https://apps.apple.com/us/app/bluetooth-for-arduino/id1505096526.
 5. To shut off the drone, trigger the killswitch and unplug the batteries. 
 
 #Contributors
